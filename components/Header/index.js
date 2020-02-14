@@ -37,4 +37,3 @@ console.log(header);
 
 const headerContainer = document.querySelector('.header-container');
 headerContainer.appendChild(Header());
-
