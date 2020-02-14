@@ -27,13 +27,16 @@ function Header() {
     temp.classList.add('temp');
 
 // Content
-
+    date.textContent = 'FEBRUARY 14, 2020'
+    title.textContent = 'Lambda Times';
+    temp.textContent = '65°F / 18°C'
 
 
 // Return
 return header;
-
+console.log(header);
 };
 
 const headerContainer = document.querySelector('.header-container');
-headerContainer.appendChild(Header);
+headerContainer.appendChild(Header());
+
