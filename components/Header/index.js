@@ -17,9 +17,7 @@ function Header() {
           temp = document.createElement('span');
 
 // Structure
-    header.appendChild(date);
-    header.appendChild(title);
-    header.appendChild(temp);
+    header.append(date, title, temp);
 
 // Classes
     header.classList.add('header');
